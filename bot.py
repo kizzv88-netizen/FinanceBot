@@ -7,6 +7,9 @@ import sqlite3
 from datetime import datetime, timedelta
 
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 TOKEN = os.getenv("BOT_TOKEN")
 
 # ---------- Состояния ----------
